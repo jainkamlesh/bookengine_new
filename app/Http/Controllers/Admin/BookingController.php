@@ -382,9 +382,46 @@ class BookingController extends Controller
 
     public function booking_duplicat(Request $request){
         if(isset($request->id) && !empty($request->id)) {
-                $resultData = Booking::find($request->id);
-                $new = $resultData->replicate();
-                if($new){
+                $resultDataold = Booking::find($request->id);
+                $resultData = new Booking;
+                $resultData->hotel_id=$resultDataold->hotel_id ;
+                $resultData->first_name=$resultDataold->first_name;
+                $resultData->last_name=$resultDataold->last_name;
+                $resultData->phone=$resultDataold->phone;
+                $resultData->email=$resultDataold->email;
+                $resultData->arrival_time=$resultDataold->arrival_time;
+                $resultData->country=$resultDataold->country;
+                $resultData->no_of_adult=$resultDataold->no_of_adult;
+                $resultData->no_of_child=$resultDataold->no_of_child;
+                $resultData->child_ages=$resultDataold->child_ages;
+                $resultData->guest_comment=$resultDataold->guest_comment;
+                $resultData->check_in_date=$resultDataold->check_in_date;
+                $resultData->check_out_date=$resultDataold->check_out_date;
+                $resultData->booking_status=$resultDataold->booking_status;
+                $resultData->total_base_amount=$resultDataold->total_base_amount;
+                $resultData->total_extra_person_amount=$resultDataold->total_extra_person_amount;
+                $resultData->extra_amount=$resultDataold->extra_amount;
+                $resultData->total_discount=$resultDataold->total_discount;
+                $resultData->gross_amount=$resultDataold->gross_amount;
+                $resultData->category_code=$resultDataold->category_code;
+                $resultData->t_type=$resultDataold->t_type;
+                $resultData->selected_room_type=$resultDataold->selected_room_type;
+                $resultData->selected_extras=$resultDataold->selected_extras;
+                $resultData->is_posted=$resultDataold->is_posted;
+                $resultData->attempt=$resultDataold->attempt;
+                $resultData->tt1=$resultDataold->tt1;
+                $resultData->deposit_amount=$resultDataold->deposit_amount;
+                $resultData->referrer=$resultDataold->referrer;
+                $resultData->note=$resultDataold->note;
+                $resultData->not_has_whatsapp=$resultDataold->not_has_whatsapp;
+                $resultData->email_not_valid=$resultDataold->email_not_valid;
+                $resultData->promo_sent=$resultDataold->promo_sent;
+                $resultData->paid=$resultDataold->paid;
+                $resultData->promotion=$resultDataold->promotion;
+                $resultData->deposit_request=$resultDataold->deposit_request;
+                $resultData->internal_note=$resultDataold->internal_note;
+                $resultData->save();
+                if($resultData){
                     return true;
                 }
                 return false;
