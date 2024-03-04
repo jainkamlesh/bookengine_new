@@ -1,0 +1,201 @@
+Booking engine
+
+BACKEND  ADMIN
+
+Admins user can manage hotels and set more parameters.
+
+Hotels
+create  / edit / delete / suspend
+
+Languages
+We will have default languages but will be possibile to add more new languages
+Defaults are: Italian / english
+
+Currencies
+By default we will use Eur but we can think to provide more currecnies (with changes taken by internet webserices)
+
+Room options
+Create / edit / delete : room options 
+Each room option will have name  and icons. This will be used for room descriptions.
+For example:
+ 
+ 
+ 
+
+
+
+
+
+BACKEND HOTELS
+
+ Login
+
+Hotels can access to our extranet inserting username and password,
+In login access is possible to recover password (link to change in email)
+
+Home page
+
+The first page after login, he can see the last reservations arrived
+
+
+Configuration
+
+In this page, hotel can insert info about him. The field will be:
+
+Hotel name
+Stars
+Address
+City
+State
+Telephone
+E-mail (will be the email where will receive reservations)
+Website url
+Latitude (to show in a map)
+Longitude  (to show in a map)
+% of deposit (is a percentage used as deposit to book a room)
+
+Childrens ages (more values)
+	Min age, Max age, Occupancy or not  (if occupany they will be occupied a place in room as adults) Can be if you want, max 4 ages intervals
+
+Checkin time
+Checlout time
+Parking info
+Wifi info
+Childrens info
+Important info (to show in front page)
+
+Languages:
+select one or more language supported
+
+Type of payment:
+Credit card for confirm reservation. in this case we will store info about credit card
+Bank transfer
+Paypal
+
+Username
+Password
+
+Background image to use in reservation page
+
+
+Rooms
+
+Image galleries
+Name
+SquareMeters
+Description
+Min of adults
+Max of adults
+Max childrens not occupancy
+Max childrens occupancy
+More room options
+
+Rate plans
+
+Name
+Conditions
+Is not refundable (checkbox)
+% of deposit requested to book room (is setted it will override the configuration)
+
+
+Extras
+
+Extras are services that user can buy with room. for example: taxi, transfer.
+
+Image
+Name
+Description
+Price 
+Calculation: for person, one time, for night, for night for person
+
+
+Offers
+
+Image
+Name
+Description
+Valid from (based on check.in date)
+Valid to  (based on check.in date)
+% of discount
+Days (calculated on checkin date) where this offer is not valid
+Rooms: where this offer is applied
+Days of week: where this offer is applied (sun, mon, … )  (calculated on checkin date)
+Conditions: (one or more conditions)
+Number of adults min - max
+Number of chidren occupany min -max
+Number of nights min -max
+Days in advance
+Bookable until (date)
+Mobile offer (check) - apply this offer for mobile device
+
+
+Coupons
+
+Name
+Valid until date
+% of discount
+
+
+Calendar & bulk update
+
+We need to provide for each room/rateplan
+
+Price for room
+Price for children (occupancy) price for person
+Single use price
+Inventory
+Min stay
+Max stay
+Closed / open rate plans
+
+For updates is possibile by calendar or by bulk update like channel manager
+
+
+
+Reservations
+
+ID
+Name
+Language
+Date of reservation
+From
+To
+Email
+Telephone
+Notes
+Rooms: name, rate plans, price, persons (adults + childrens)
+Extras: name, price
+Deposit
+Total price
+
+
+
+Widget generator
+ 
+can generate a widget javascript to insert in website, in my booking engine i can generate a widget like this:
+
+
+
+
+
+Front-end 
+
+Step1
+
+In the first step user can select from/to date and number of persons.
+System will show rooms available.
+User can select one or more rooms and goes to nex step
+
+Step2
+
+In this step user can add (if available) one or more extras to reservation
+
+Step3
+
+User can see the overview of reservation, insert his datas (name, phone, etc) and then choose a payment method and show in next page a confirmation
+
+ 
+
+
+
+API to connect to channel manager

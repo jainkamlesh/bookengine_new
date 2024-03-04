@@ -1,0 +1,583 @@
+@media (max-width: 1300px) {
+    .pro-table-pg th:nth-child(2) {
+        width: 160px;
+    }
+
+    .pro-table-pg th:nth-child(3) {
+        width: 280px;
+    }
+
+    .pro-table-pg th:nth-child(4) {
+        width: 160px;
+    }
+
+    .forgot-block {
+        width: 100%;
+    }
+
+    .forgot-block .login-sec .group {
+        width: 60%;
+    }
+
+    .edit-table th:nth-child(2) {
+        width: 119px;
+    }
+
+    .edit-table th:nth-child(3) {
+        width: 30px;
+    }
+
+    .add-table-pg th:nth-child(3) {
+        width: auto;
+    }
+
+    .book-table-pg th:nth-child(1) {
+        width: 90px;
+    }
+
+    .book-table-pg th:nth-child(2) {
+        width: 110px;
+    }
+
+    .book-table-pg th:nth-child(3) {
+        width: 200px;
+    }
+
+    .book-table-pg th:nth-child(4) {
+        width: 170px;
+    }
+
+    .book-table-pg th:nth-child(6) {
+        width: 100px;
+    }
+
+    .book-table-pg th:nth-child(9) {
+        width: 190px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .forgot-block .login-sec .group {
+        width: 80%;
+    }
+}
+
+@media (max-width: 991px) {
+    #close-btn {
+        display: none;
+    }
+
+    .per-cal-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    .per-cal-col-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+
+    .calendar-wrapper .calendar-nav {
+        display: block !important;
+    }
+
+    .brdr-nonne {
+        border-bottom: none !important;
+        margin: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .edit-table tr {
+        padding: 0;
+    }
+
+    .price-total th:nth-child(-n+2) {
+        border: none !important;
+    }
+
+    .price-total th:nth-child(1) {
+        text-align: left !important;
+        word-break: break-word;
+    }
+
+    .price-total th:nth-child(2) {
+        word-break: break-word;
+    }
+
+    .rate-td-res {
+        display: none !important;
+    }
+
+    .action-list {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .wrapper .icon {
+        margin: 0 0 0 15px;
+    }
+
+    .channel-wrapper .pro-table-pg th, .channel-wrapper .pro-table-pg td {
+        text-align: right;
+    }
+
+    .close-icn {
+        display: block !important;
+    }
+
+    .banner-sec {
+        display: none;
+    }
+
+    .site-login .login-sec {
+        border-radius: 10px;
+    }
+
+    .login-block .container {
+        box-shadow: none;
+    }
+
+    .login-block .container {
+        padding-right: 15px !important;
+    }
+
+    .pro-table-pg {
+        border: 0;
+    }
+
+    .pro-table-pg thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .pro-table-pg tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    .pro-table-pg td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    .pro-table-pg td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+
+    .pro-table-pg td:last-child {
+        border-bottom: 0;
+    }
+
+    .pro-table-pg tr {
+        border-color: #543a9bbf;
+        box-shadow: 0 0 8px -2px #ccc;
+        border-radius: 5px;
+        border-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .site-navbar {
+        padding: 12px 0;
+    }
+
+    .pro-add-nnb {
+        margin-top: 40px !important;
+    }
+
+    .pms-wrapper .pro-table-pg td:nth-child(4) {
+        text-align: right;
+    }
+
+    .pms-wrapper .pro-table-pg td:nth-child(6) {
+        text-align: right;
+    }
+
+    .pms-wrapper .pro-table-pg td:nth-child(8) {
+        text-align: right;
+    }
+
+    .forgot-block .forgot-text {
+        text-align: center;
+        padding: 0;
+    }
+
+    .forgot-block .login-sec .group {
+        width: 100%;
+    }
+
+    .dashboard-wrapper .property-wrapper {
+        width: 100%;
+    }
+
+    .booking-wrapper .calendar-nav {
+        display: block !important;
+    }
+
+    .booking-wrapper .record-block {
+        width: 25%;
+        margin-top: 0
+    }
+
+    .booking-wrapper .record-block label {
+        min-width: 140px;
+    }
+
+    .ota-table-pg td:nth-child(n+4) {
+        text-align: right;
+    }
+
+    .view-more-box {
+        width: 23px;
+    }
+
+    .room-table-pg td:nth-child(n+3) {
+        text-align: right;
+    }
+
+    .system-table-pg td:nth-child(n) {
+        text-align: right;
+    }
+
+    .ota-table-pg .no-record tr {
+        background-color: #cccccca3;
+    }
+
+    .ota-table-pg .no-record {
+        background-color: #fff;
+    }
+
+    .edit-table .price-total {
+        display: flex;
+        justify-content: space-between;
+        border-top: 2px solid #ddd;
+        border-radius: 0;
+    }
+
+    .bulk-body {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 767px) {
+    .prop-inp {
+        width: 300px;
+    }
+
+    .logs-drop-menu {
+        left: 19px !important;
+        top: -8px !important;
+        min-width: 6rem !important;
+    }
+
+    .calendar-wrapper .upadate-box i {
+        border: none;
+        background: #fff !important;
+        color: #543a9b !important;
+        margin: 0;
+    }
+
+    .per-cal-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    .calendar-wrapper .upadate-box {
+        border-right: 1px solid #ddd;
+    }
+
+    .per-cal-col-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+
+    .calendar-wrapper .upadate-box button {
+        padding: 7px 30px;
+        font-size: 15px;
+    }
+
+    .calendar-wrapper .carousel-inner {
+        overflow-x: scroll;
+    }
+
+    .calendar-wrapper .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+
+    .site-login {
+        background-image: none;
+    }
+
+    .forgot-block {
+        width: 100% !important;
+    }
+
+    .property-wrapper .back-icon {
+        position: relative;
+    }
+
+    .pagination-btn button {
+        width: 15%;
+    }
+
+    .booking-wrapper .record-block {
+        width: 30%;
+    }
+
+    .booking-wrapper .select2-container {
+        width: 130px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .pro-add-nnb {
+        display: block !important;
+        margin-top: 40px !important;
+    }
+
+    .calendar-wrapper #care1,
+    .calendar-wrapper #care2,
+    .calendar-wrapper .div_slid_care {
+        overflow: auto;
+    }
+
+    .calendar-wrapper .form-group {
+        margin-right: 0;
+    }
+
+    .calendar-wrapper .form-group .date_range_picker {
+        width: 100%;
+    }
+
+    .per-cal-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .site-mobile-menu .dropdown-item {
+        padding: 3px 20px !important;
+    }
+
+    .calendar-wrapper .room-div {
+        padding: 0 10px;
+    }
+
+    .room-ft-div h5 {
+        font-size: 12px !important;
+    }
+
+    .calendar-wrapper .room-div h5 {
+        font-size: 11px;
+    }
+
+    .calendar-wrapper .stosell-div .sub-cnt {
+        margin-left: 4px !important;
+        font-weight: 500 !important;
+        font-size: 11px;
+    }
+
+    .calendar-wrapper .upadate-box button {
+        padding: 4px 20px;
+        font-size: 14px;
+    }
+
+    .per-cal-col-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .calendar-wrapper .calendar-nav .nav-ft-kk {
+        display: block !important;
+    }
+
+    .calendar-wrapper .calendar-nav .nav-ft-kk-2 {
+        flex-wrap: wrap;
+    }
+
+    .calendar-wrapper .calendar-nav button {
+        margin-bottom: 15px;
+        font-size: 14px;
+        padding: 3px 13px 2px;
+        margin-right: 10px;
+    }
+
+    /*.daterangepicker{
+        width: 100%;
+        min-width: 100%;
+        margin: 0;
+    }*/
+    .daterangepicker .drp-calendar {
+        min-width: 100%;
+    }
+
+    .daterangepicker .drp-selected {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .daterangepicker .drp-buttons .btn-default {
+        float: left;
+    }
+
+    .daterangepicker.show-calendar .ranges {
+        margin-top: 0 !important;
+    }
+
+    .left .calendar-table table thead, .datepicker-months table thead, .datepicker-years table thead, .datepicker-decades table thead, .datepicker-centuries table thead {
+        border-radius: 15px 15px 0 0 !important;
+    }
+
+    .right .calendar-table table thead, .datepicker-months table thead, .datepicker-years table thead, .datepicker-decades table thead, .datepicker-centuries table thead {
+        border-radius: 0 !important;
+    }
+
+    .daterangepicker .drp-calendar.left .calendar-table {
+        padding-right: 0 !important;
+    }
+
+    #loader {
+        top: 0 !important;
+        right: 0 !important;
+        display: table;
+        margin: auto;
+    }
+
+    .dashboard-wrapper .card-body {
+        padding: 12px;
+    }
+
+    .dashboard-wrapper .dl-horizontal li dt {
+        width: 100%;
+    }
+
+    .dashboard-wrapper .dl-horizontal li {
+        display: block;
+    }
+
+    .dashboard-wrapper .modal-body {
+        padding: 0 5px;
+    }
+
+    .property-wrapper .modal-title {
+        font-size: 20px;
+    }
+
+    .pagination {
+        display: none;
+    }
+
+    .pagination-btn button {
+        width: 38%;
+    }
+
+    .add-btn {
+        padding: 5px 20px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .property-wrapper .modal-body label {
+        font-size: 14px;
+    }
+
+    .prop-inp {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .property-wrapper h2:after {
+        width: 28%;
+    }
+
+    .property-wrapper .back-icon {
+        position: absolute;
+    }
+
+    .pagination-btn {
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dashboard-wrapper .re-post {
+        padding: 2rem;
+    }
+
+    .booking-wrapper .nav-br {
+        display: block !important;
+    }
+
+    .booking-wrapper .select2-container {
+        width: 100% !important;
+    }
+
+    .booking-wrapper .calendar-wrapper .form-group {
+        margin: 10px 0 !important;
+    }
+
+    .booking-wrapper .calendar-nav button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .view-heading {
+        margin-top: 70px;
+    }
+
+    .dash-table-pg td:nth-child(n) {
+        text-align: right;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .delete-modal-main .modal-btn button {
+        width: 20%;
+        padding: 4px;
+    }
+
+    .property-wrapper .back-image {
+        width: 75%;
+    }
+
+    .property-wrapper .list-heading {
+        font-size: 20px;
+    }
+
+    .property-wrapper .back-icon {
+        margin-top: 0;
+    }
+
+    .delete-modal-main .delete-warning {
+        font-size: 15px;
+    }
+
+    .delete-modal-main .modal-header .modal-title {
+        font-size: 22px;
+    }
+}
